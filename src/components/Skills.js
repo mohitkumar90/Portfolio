@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import React from 'react'
+import Experience from './Experience'
 
 const  Skill = ({name, x, y}) =>{
     return(
@@ -26,6 +27,7 @@ const Skills = () => {
         >
             web
         </motion.div>
+
         <Skill name='HTML' x='-28vw' y='-2vw' />
         <Skill name='CSS' x='-5vw' y='-10vw' />
         <Skill name='Javascript' x='20vw' y='6vw' />
@@ -36,6 +38,7 @@ const Skills = () => {
         <Skill name='Figma' x='0vw' y='-20vw' />
         <Skill name='Firebase' x='-25vw' y='18vw' />
         <Skill name='Talewind CSS' x='18vw' y='18vw' />
+
     </div>
     </>
   )
