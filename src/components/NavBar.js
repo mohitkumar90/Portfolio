@@ -57,7 +57,7 @@ const NavBar = () => {
         <span className={`bg-dark dark:bg-light block transition-all  duration-300 ease-out h-0.5 w-6 rounded-sm translate-y-0.5 ${isOpen ? '-rotate-45  -translate-y-1' : ' translate-y-0.5'}`}></span>
       </button>
 
-      <div className='min-w-[70vw] flex  justify-between items-center lg:hidden'>
+      <div className='min-w-[85vw] flex  justify-between items-center lg:hidden'>
         <nav>
           <CustomLink href="/" title="Home" className='mr-4' />
           <CustomLink href="/about" title="About" className='mx-4' />
