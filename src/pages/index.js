@@ -18,8 +18,9 @@ export default function Home() {
      
       </Head>
       <TransitionEffect />
-      <main className='flex items-center text-dark w-full max-h-screen dark:text-light'>
-        <Layout className="pt-0 md:p-16 sm:pt-8">
+      <main className='flex items-center text-dark w-full min-h-screen dark:text-light sm:items-start'>
+        <Layout className=" xl:p-24 lg:p-16 
+      md:p-12 sm:p-8 !pt-0 md:!pt-16 sm:!pt-16">
           <div className='flex items-center justify-between w-full lg:flex-col'>
             <div className='w-1/2 md:w-full'>
             <Image src={profilePic} alt="MohitKumar" className="w-full h-auto lg:hidden md:inline-block md:w-full " 
