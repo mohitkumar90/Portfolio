@@ -454,7 +454,7 @@ export const CircularText = ({ className, ...rest }) => (
     <path id="textcircle" d="M250,400
                  a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z" transform="rotate(12,250,250)" />
   </defs>
-  <g class="textcircle">
+  <g className="textcircle">
     <text textLength="940" fontSize={40} fontWeight={'bold'}>
       <textPath 
                 href="#textcircle" 
