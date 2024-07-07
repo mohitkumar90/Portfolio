@@ -57,7 +57,7 @@ const About = () => {
                         <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                             <div className='font-medium'>
-                                Hi, I'm Mohit, I have worked in frontend development with a strong focus on react JS And passion for creating beautiful, functional,
+                                Hi, I&apos;m Mohit, I have worked in frontend development with a strong focus on react JS And passion for creating beautiful, functional,
                                 and user-centered project experiences. With 3.6 years of experience in the field. I am always looking for
                                 new and innovative ways to bring my clients visions to life.
                                 <p className='my-4 font-medium'>
@@ -65,7 +65,7 @@ const About = () => {
                                 </p>
 
                                 <p className='font-medium'>
-                                In addition to my technical skills, I am strong advocate for clean code practices, modules design pattern and continuous learning. Throughout my career, I have worked on many projects where I have learned about React’s powerful component -based architecture to create dynamic and responsive user interfaces. I look forward to the opportunity to bring my skills and passion to your next project.
+                                In addition to my technical skills, I am strong advocate for clean code practices, modules design pattern and continuous learning. Throughout my career, I have worked on many projects where I have learned about React&apos;s powerful component -based architecture to create dynamic and responsive user interfaces. I look forward to the opportunity to bring my skills and passion to your next project.
                                 </p>
 
 
