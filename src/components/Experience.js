@@ -40,52 +40,29 @@ const Experience = () => {
                 <motion.div style={{scaleY: scrollYProgress}}  className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]' />
                 <ul className='w-full flex flex-col items-center justify-between ml-4 xs:ml-2'>
                     <Details
-                        position='Software Engineer' company='Google'
-                        companyLink='www.google.com'
-                        time='2022-Present' address='Mountain View, CA'
-                        work='Worked on a team responsible for developing new features for Google
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization.'
+                        position='Lead Frontend Development' company='Oodles Technologies'
+                        companyLink='https://www.oodlestechnologies.com/'
+                        time='Oct 2022 - March 2024' address='Gurgaon, Haryana'
+                        work='Worked on the MyHelpa project using reactjs for web and react- native for android and IOS app. MyHelpa is
+an web and mobile application designed to support home care professionals with delivering outstanding care at
+home. Deployement of mobile app on Google play store and App store. As lead engineer handled project end-to-end translating client requirements into effective sprints, engineering
+requirements and managing a team of 5 members while also leading architectural decisions and
+development efforts.'
                     />
                      <Details
-                        position='Software Engineer' company='Google'
-                        companyLink='www.google.com'
-                        time='2022-Present' address='Mountain View, CA'
-                        work='Worked on a team responsible for developing new features for Google
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization.'
+                        position='Sr. Associate Consultant- Frontend Development' company='Oodles Technologies'
+                        companyLink='https://www.oodlestechnologies.com/'
+                        time='Jan 2022 - Sept 2022' address='Gurgaon, Haryana'
+                        work='Worked on Unikaksha project using react and node js. Unikaksha is an web page designed for online classes and
+different courses for Teachers and students. Achieved 30% growth by building out key features like 2 way sync bw tools like Jira, Real-time editor, showcasing
+strong leadership and strategic planning abilities.'
                     />
                      <Details
-                        position='Software Engineer' company='Google'
-                        companyLink='www.google.com'
-                        time='2022-Present' address='Mountain View, CA'
-                        work='Worked on a team responsible for developing new features for Google
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization.'
-                    />
-                     <Details
-                        position='Software Engineer' company='Google'
-                        companyLink='www.google.com'
-                        time='2022-Present' address='Mountain View, CA'
-                        work='Worked on a team responsible for developing new features for Google
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization.'
-                    />
-                     <Details
-                        position='Software Engineer' company='Google'
-                        companyLink='www.google.com'
-                        time='2022-Present' address='Mountain View, CA'
-                        work='Worked on a team responsible for developing new features for Google
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization.'
-                    />
-                     <Details
-                        position='Software Engineer' company='Google'
-                        companyLink='www.google.com'
-                        time='2022-Present' address='Mountain View, CA'
-                        work='Worked on a team responsible for developing new features for Google
-                search engine, including improving the accuracy and relevance of search results and 
-                developing new tools for data analysis and visualization.'
+                        position='Associate Consultant - Frontend Developer' company='Oodles Technologies'
+                        companyLink='https://www.oodlestechnologies.com/'
+                        time='Sept 2020 - Dec 2021' address='Gurgaon, Haryana'
+                        work='Successfully built and delivered 3+ products with high-quality code and user-friendly interfaces using React,
+Typescript. Ensured 100% uptime for projects, handling deployment and releases.'
                     />
                 </ul>
             </div>

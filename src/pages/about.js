@@ -2,7 +2,7 @@ import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import React, { useEffect, useRef } from 'react'
-import profilePic from '../../public/images/profile/developer-pic-2.jpg'
+import profilePic from '../../public/images/profile/formals1.jpg'
 import Image from 'next/image'
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
 import Skills from '@/components/Skills'
@@ -57,18 +57,15 @@ const About = () => {
                         <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                             <div className='font-medium'>
-                                Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional,
-                                and user-centered digital experiences. With 4 years of experience in the field. I am always looking for
-                                new and innovative ways to bring my clients' visions to life.
+                                Hi, I'm Mohit, I have worked in frontend development with a strong focus on react JS And passion for creating beautiful, functional,
+                                and user-centered project experiences. With 3.6 years of experience in the field. I am always looking for
+                                new and innovative ways to bring my clients visions to life.
                                 <p className='my-4 font-medium'>
-                                    I believe that design is about more than just making things look pretty - it's about solving problems and
-                                    creating intuitive, enjoyable experiences for users.
+                                Project of the Month Award at Oodles for MyHelpa Received Extra mile award at oodles.
                                 </p>
 
                                 <p className='font-medium'>
-                                    Whether I'm working on a website, mobile app, or
-                                    other digital product, I bring my commitment to design excellence and user-centered thinking to
-                                    every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+                                In addition to my technical skills, I am strong advocate for clean code practices, modules design pattern and continuous learning. Throughout my career, I have worked on many projects where I have learned about React’s powerful component -based architecture to create dynamic and responsive user interfaces. I look forward to the opportunity to bring my skills and passion to your next project.
                                 </p>
 
 
@@ -85,19 +82,19 @@ const About = () => {
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
 
-                                    <AnimatedNumbers value={40} />+
+                                    <AnimatedNumbers value={5} />+
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>satisfied clients</h2>
                             </div>
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                                    <AnimatedNumbers value={50} />+
+                                    <AnimatedNumbers value={5} />+
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>projects complated</h2>
                             </div>
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                                    <AnimatedNumbers value={4} />+
+                                    <AnimatedNumbers value={3} />+
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>years of experience</h2>
                             </div>

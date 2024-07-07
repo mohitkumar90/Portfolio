@@ -9,9 +9,9 @@ const Footer = () => {
             <span>{new Date().getFullYear()} &copy; All Right Reserved.</span>
             <div className='flex items-center lg:py-2'>
             Build with <span className='text-primary dark:text-primaryDark text-2xl px-1'>&#9825;</span>  
-            by&nbsp;<Link href="https://devdreaming.com" target="_blank" className='underline underline-offset-2'>Mohit kumar</Link>
+            by&nbsp;<Link href="mailto:mk9729708377@gmail.com" target="_blank" className='underline underline-offset-2'>Mohit kumar</Link>
             </div>
-            <Link href="https://devdreaming.com" target="_blank" className='underline underline-offset-2'>Say Hello</Link>
+            <Link href="mailto:mk9729708377@gmail.com" target="_blank" className='underline underline-offset-2'>Say Hello</Link>
         </Layout>
     </footer>
   )

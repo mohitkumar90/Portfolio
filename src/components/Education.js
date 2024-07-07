@@ -41,44 +41,29 @@ const Education = () => {
                     <Details
                         type='Bachelor Of Science In Computer Science' 
                         time='2016-2020' 
-                        place='Massachusetts Institute Of Technology (MIT)'
+                        place='JMIETI Radaur, Kurukshetra (Haryana)'
                         info='Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
                             Intelligence.'
                     />
                     <Details
-                        type='Bachelor Of Science In Computer Science' 
-                        time='2016-2020' 
-                        place='Massachusetts Institute Of Technology (MIT)'
-                        info='Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                            Intelligence.'
+                        type='Senior Secondary' 
+                        time='2014-2016' 
+                        place='D.R.K. Adarsh
+Vidya Mandir School,
+Charkhi Dadri'
+                        info='CBSE( Central Board
+of secondary
+Education)'
                     />
                      <Details
-                        type='Bachelor Of Science In Computer Science' 
-                        time='2016-2020' 
-                        place='Massachusetts Institute Of Technology (MIT)'
-                        info='Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                            Intelligence.'
-                    />
-                     <Details
-                        type='Bachelor Of Science In Computer Science' 
-                        time='2016-2020' 
-                        place='Massachusetts Institute Of Technology (MIT)'
-                        info='Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                            Intelligence.'
-                    />
-                     <Details
-                        type='Bachelor Of Science In Computer Science' 
-                        time='2016-2020' 
-                        place='Massachusetts Institute Of Technology (MIT)'
-                        info='Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                            Intelligence.'
-                    />
-                     <Details
-                        type='Bachelor Of Science In Computer Science' 
-                        time='2016-2020' 
-                        place='Massachusetts Institute Of Technology (MIT)'
-                        info='Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                            Intelligence.'
+                        type='Matriculation' 
+                        time='2013-2014' 
+                        place='Adarsh Sr. Sec.
+School,
+Charkhi Dadri'
+                        info='HBSE (Haryana Board
+of secondary
+Education)'
                     />
                 </ul>
             </div>

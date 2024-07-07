@@ -45,10 +45,11 @@ const Skills = () => {
         <Skill name='NextJS' x='-20vw' y='-15vw' />
         <Skill name='Web Design' x='15vw' y='-12vw' />
         <Skill name='React Native' x='32vw' y='-5vw' />
-        <Skill name='Figma' x='0vw' y='-20vw' />
-        <Skill name='Firebase' x='-25vw' y='18vw' />
-        <Skill name='Talewind CSS' x='18vw' y='18vw' />
-
+        <Skill name='Redux' x='0vw' y='-20vw' />
+        <Skill name='Bootstrap' x='-25vw' y='18vw' />
+        <Skill name='Tailwind CSS' x='18vw' y='18vw' />
+        <Skill name='Github Actions' x='10vw' y='27vw' />
+        <Skill name='Vivify Scrum' x='-22vw' y='9vw' />
     </div>
     </>
   )

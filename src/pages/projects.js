@@ -5,7 +5,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import project1 from '../../public/images/projects/myhelpapic.jpg'
+import project2 from '../../public/images/projects/healthNest Assesment.jpg'
+import project3 from '../../public/images/projects/porfolio.jpg'
+import project4 from '../../public/images/projects/ps.jpg'
+
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -43,9 +47,9 @@ const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
                 </Link>
                 <p className='my-2 font-medium text-dark dark:text-light sm:text-sm'>{summary}</p>
                 <div className='mt-2 flex items-center'>
-                    <Link href={github} target='_blank' className='w-10'>
+                    <div className='w-10'>
                         <GithubIcon />
-                    </Link>
+                    </div>
                     <Link href={link} target='_blank' className='ml-4 rounded-lg bg-dark dark:bg-light dark:text-dark text-light p-2 px-6 text-lg font-semibold
                     sm:px-4 sm:text-base
                     '>
@@ -105,55 +109,50 @@ const Projects = () => {
                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-12'>
                             <FeaturedProjects
-                                title="Crypto Screener Application"
-                                summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                local currency.'
-                                link="/"
-                                github='/'
+                                title="MyHelpa web and mobile app"
+                                summary='MyHelpa is
+an web and mobile application designed to support home care professionals with delivering outstanding care at
+home. MyHelpa replaces hours of manual work with super-fast automation. 
+The platform centralises data across all operational departments, saving days wasted on admin, decreasing human error and reducing costs.'
+                                link="https://app.myhelpa.com/auth"
+                                github=''
                                 type="Featured Project"
                                 img={project1}
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Crypto Screener Application"
-                                summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                local currency.'
-                                link="/"
-                                github='/'
-                                type="Featured Project"
-                                img={project1}
+                                title="HealthNest"
+                                summary='The project is a React Native cli that provides authentication functionality for mobile applications. This includes reusable components that can be easily integrated into various projects.'
+                                link="https://drive.google.com/drive/folders/111GgZ8wCcG_n5AVAiAWrovAiWS2Njl13"
+                                github='https://github.com/mohitkumar90/HealthNest'
+                                type="Assignment App Project"
+                                img={project2}
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Crypto Screener Application"
-                                summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                local currency.'
-                                link="/"
-                                github='/'
-                                type="Featured Project"
-                                img={project1}
+                                title="Perpetual Strats"
+                                summary=''
+                                link="https://github.com/mohitkumar90/perpetualstrats"
+                                github='https://github.com/mohitkumar90/perpetualstrats'
+                                type="Website Template"
+                                img={project4}
                             />
                         </div>
 
                         <div className='col-span-12'>
                             <FeaturedProjects
-                                title="Crypto Screener Application"
-                                summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                                local currency.'
+                                title="Next JS Portfolio Website"
+                                summary='A professional portfolio website using Next JS, Framer-motion, and Tailwind CSS. It has smooth page transitions, cool background effects, unique design and it is mobile responsive.'
                                 link="/"
-                                github='/'
-                                type="Featured Project"
-                                img={project1}
+                                github='https://github.com/mohitkumar90/Portfolio'
+                                type="Portfolio Website"
+                                img={project3}
                             />
                         </div>
 
-                        <div className='col-span-6 sm:col-span-12'>
+                        {/* <div className='col-span-6 sm:col-span-12'>
                             <Project
                                 title="Crypto Screener Application"
                                 summary='A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
@@ -176,7 +175,7 @@ const Projects = () => {
                                 type="Featured Project"
                                 img={project1}
                             />
-                        </div>
+                        </div> */}
                     </div>
                 </Layout>
             </main>
